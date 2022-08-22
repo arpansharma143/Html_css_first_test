@@ -8,6 +8,19 @@
   font-weight: normal;
   src: local("Kano regular"), url("/Assets/Fonts/Kano.woff") format("woff");
 }
+@font-face {
+  font-family: "Helvetica_Neue_bold";
+
+  src: local("Kano regular"),
+    url("/Assets/Fonts/Helvetica\ Neue\ Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "Helvetica_Neue_medium";
+
+  src: local("Kano regular"),
+    url("/Assets/Fonts/Helvetica\ Neue\ Medium.woff") format("woff");
+}
+
 body {
   margin: 0;
   /* height: ;` */
@@ -37,8 +50,8 @@ header nav div {
 }
 
 header nav div a {
-  font-family: Helvetica;
-  font-weight: bold;
+  font-family: Helvetica_Neue_bold;
+  /* font-weight: bold; */
   font-size: 20px;
 }
 
@@ -50,8 +63,8 @@ header nav div .contact-action {
   background-color: #0076ff;
   height: 62px;
   width: 221px;
-  font-family: Helvetica;
-  font-weight: bold;
+  font-family: Helvetica_Neue_bold;
+  /* font-weight: bold; */
   color: white;
   text-align: center;
   border-radius: 15px;
@@ -79,8 +92,8 @@ section {
 section h1 {
   margin: 0;
   color: white;
-  font-family: helvetica;
-  font-weight: 500;
+  font-family: Helvetica_Neue_medium;
+  /* font-weight: 500; */
   width: 939px;
   margin-left: 87px;
 }
@@ -126,14 +139,14 @@ main .main_heading {
 }
 main .main_heading h1 {
   margin: 0px;
-  font-weight: bold;
-  font-family: helvetica;
+  /* font-weight: bold; */
+  font-family: Helvetica_Neue_bold;
   font-size: 60px;
 }
 
 main .main_heading h1:first-child {
-  font-weight: 500;
-  font-family: helvetica;
+  /* font-weight: 500; */
+  font-family: Helvetica_Neue_medium;
   font-size: 30px;
   color: #0076ff;
 }
@@ -196,8 +209,8 @@ main .list h5 {
 main .list ul {
   font-size: 26px;
   letter-spacing: 0.78px;
-  font-weight: 500;
-  font-family: helvetica;
+  /* font-weight: 500; */
+  font-family: Helvetica_Neue_medium;
   list-style: none;
 }
 
@@ -211,7 +224,7 @@ main .list ul li {
 }
 main .list ul li::before {
   content: "";
-  background-color: #0076ff; /* Change the color */
+  background-color: #0076ff;
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -233,8 +246,8 @@ main section article {
 main section article h6 {
   margin: 0px;
   font-size: 60px;
-  font-family: helvetica;
-  font-weight: bold;
+  font-family: Helvetica_Neue_bold;
+  /* font-weight: bold; */
   color: #ffffff;
 }
 
@@ -244,7 +257,7 @@ main section article .paragraph_div {
 main section article .paragraph_div p {
   font-size: 26px;
   letter-spacing: 0.78px;
-  font-weight: 400;
+  /* font-weight: 400; */
   font-family: helvetica;
   color: #ffffff;
 }
