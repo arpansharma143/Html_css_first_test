@@ -1,0 +1,268 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Kano";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Kano regular"), url("/Assets/Fonts/Kano.woff") format("woff");
+}
+body {
+  margin: 0;
+  /* height: ;` */
+  background-color: #ffffff;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 178px;
+  padding: 0px 95px 0px 80px;
+}
+
+header .img {
+  width: 52%;
+}
+
+header nav {
+  width: 48%;
+}
+
+header nav div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav div a {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+header nav div .contact-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  background-color: #0076ff;
+  height: 62px;
+  width: 221px;
+  font-family: Helvetica;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  border-radius: 15px;
+}
+
+section {
+  background-image: url(./Assets/Images/Mask\ Group\ 3.png);
+  background-size: 100% 731px;
+  background-position: 30%;
+  background-repeat: no-repeat;
+  height: 731px;
+  width: 100%;
+  background-size: center;
+  position: relative;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  column-gap: 0px;
+  row-gap: 0px;
+}
+
+section h1 {
+  margin: 0;
+  color: white;
+  font-family: helvetica;
+  font-weight: 500;
+  width: 939px;
+  margin-left: 87px;
+}
+
+section .firstH1 {
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+section h1:first-child {
+  vertical-align: bottom;
+}
+
+section .section_medal_h1 {
+  width: 939px;
+  height: 428px;
+  font-size: 82px;
+  letter-spacing: 0px;
+  font-weight: bold;
+}
+
+section .Nick_Desc h1 {
+  margin: 0;
+  width: 98%;
+  text-align: end;
+  font-weight: bold;
+  margin-right: 33px;
+  font-size: 30px;
+}
+
+section div h1:last-child {
+  font-weight: 500;
+}
+
+main {
+  padding-top: 69px;
+}
+main .main_heading {
+  width: 887px;
+  margin-left: 80px;
+}
+main .main_heading h1 {
+  margin: 0px;
+  font-weight: bold;
+  font-family: helvetica;
+  font-size: 60px;
+}
+
+main .main_heading h1:first-child {
+  font-weight: 500;
+  font-family: helvetica;
+  font-size: 30px;
+  color: #0076ff;
+}
+
+main .main-desc {
+  margin-left: 81px;
+}
+
+main .main-desc .paragragh {
+  width: 980px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+main .main-desc .paragragh p {
+  font-size: 26px;
+  /* text-align: left; */
+  letter-spacing: 0.78px;
+  font-weight: normal;
+  font-family: helvetica;
+}
+
+main .main-desc .paragragh h2 {
+  font-size: 25px;
+  letter-spacing: 0.78px;
+  margin: 0px;
+  font-weight: 600;
+  font-family: helvetica;
+}
+
+main .main-desc .paragragh .second_last_para {
+  margin-top: 0;
+}
+
+main .main-desc .paragragh p:last-child {
+  margin-top: 0;
+}
+
+main .list {
+  vertical-align: top;
+  display: inline-block;
+  margin-left: 89px;
+  background-color: #fafafc;
+  box-shadow: 0px 2px 6px #00000029;
+  border-radius: 20px;
+  width: 649px;
+  height: 745px;
+  padding: 105px 60px 84px 60px;
+}
+
+main .list h5 {
+  margin: 0;
+  font-size: 40px;
+  letter-spacing: 1.2px;
+  font-family: helvetica;
+  font-weight: 400px;
+  width: 529px;
+}
+
+main .list ul {
+  font-size: 26px;
+  letter-spacing: 0.78px;
+  font-weight: 500;
+  font-family: helvetica;
+  list-style: none;
+}
+
+main .list ul li {
+  margin: 18px 0;
+
+  /* font-size: 26px;
+  letter-spacing: 0.78px;
+  font-weight: 400;
+  list-style: none; */
+}
+main .list ul li::before {
+  content: "";
+  background-color: #0076ff; /* Change the color */
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 30px;
+}
+
+main section {
+  margin-top: 41px;
+  background-image: url("./Assets/Images/Mask\ Group\ 2.png");
+}
+
+main section article {
+  margin-top: 54px;
+  margin-left: 52%;
+}
+
+main section article h6 {
+  margin: 0px;
+  font-size: 60px;
+  font-family: helvetica;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+main section article .paragraph_div {
+  width: 95%;
+}
+main section article .paragraph_div p {
+  font-size: 26px;
+  letter-spacing: 0.78px;
+  font-weight: 400;
+  font-family: helvetica;
+  color: #ffffff;
+}
+
+footer {
+  background-color: #0076ff;
+  width: 100%;
+  height: 366px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer h4 {
+  font-size: 35px;
+  font-family: Kano;
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
