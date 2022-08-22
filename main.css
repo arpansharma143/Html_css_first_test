@@ -263,6 +263,7 @@ main section article .paragraph_div p {
 }
 
 footer {
+  margin-top: 61px;
   background-color: #0076ff;
   width: 100%;
   height: 366px;
