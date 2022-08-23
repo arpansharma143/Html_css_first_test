@@ -52,6 +52,7 @@ header nav div {
 header nav div a {
   font-family: Helvetica_Neue_bold;
   /* font-weight: bold; */
+
   font-size: 20px;
 }
 
@@ -95,14 +96,21 @@ section h1 {
   font-family: Helvetica_Neue_medium;
   /* font-weight: 500; */
   width: 939px;
-  margin-left: 87px;
+  margin: 0 auto 0 auto;
+
+  /* margin-left: 87px; */
 }
 
 section .firstH1 {
+  width: 1080px;
   height: 55px;
   display: flex;
   flex-direction: column;
   justify-content: end;
+}
+
+section .secondH1 {
+  width: 1080px;
 }
 
 section h1:first-child {
@@ -134,14 +142,18 @@ main {
   padding-top: 69px;
 }
 main .main_heading {
-  width: 887px;
-  margin-left: 80px;
+  width: 1060px;
+  /* margin-left: 80px; */
 }
 main .main_heading h1 {
-  margin: 0px;
+  width: 887px;
+  margin: 0 auto 0 auto;
   /* font-weight: bold; */
   font-family: Helvetica_Neue_bold;
   font-size: 60px;
+}
+main .main_heading h1:first-child {
+  width: 880px;
 }
 
 main .main_heading h1:first-child {
@@ -152,7 +164,11 @@ main .main_heading h1:first-child {
 }
 
 main .main-desc {
-  margin-left: 81px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* margin-left: 81px; */
 }
 
 main .main-desc .paragragh {
@@ -188,7 +204,7 @@ main .main-desc .paragragh p:last-child {
 main .list {
   vertical-align: top;
   display: inline-block;
-  margin-left: 89px;
+  /* margin-left: 89px; */
   background-color: #fafafc;
   box-shadow: 0px 2px 6px #00000029;
   border-radius: 20px;
@@ -234,17 +250,51 @@ main .list ul li::before {
   margin-right: 30px;
 }
 
+main .main-desc .list_main {
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .main-desc .list_main .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+main .main-desc .list_main .button button {
+  height: 98px;
+  width: 399px;
+  border-radius: 15px;
+  background-color: #0076ff;
+  color: white;
+  font-family: Helvetica_Neue_bold;
+  font-size: 29px;
+  border: none;
+}
+
 main section {
-  margin-top: 41px;
   background-image: url("./Assets/Images/Mask\ Group\ 2.png");
+
+  margin-top: 41px;
 }
 
 main section article {
-  margin-top: 54px;
-  margin-left: 52%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  width: 1800px;
+  margin: 0 auto 0 auto;
+  /* margin-top: 54px;
+  margin-left: 52%; */
 }
 
 main section article h6 {
+  width: 887px;
   margin: 0px;
   font-size: 60px;
   font-family: Helvetica_Neue_bold;
@@ -253,7 +303,8 @@ main section article h6 {
 }
 
 main section article .paragraph_div {
-  width: 95%;
+  width: 887px;
+  /* width: 95%; */
 }
 main section article .paragraph_div p {
   font-size: 26px;
